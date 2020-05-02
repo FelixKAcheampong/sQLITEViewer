@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.felinkotech.flxsqlitemanager" >
+
+    <application>
+        <activity android:name=".views.FlxSqliteViewerActivity" />
+        <activity android:name=".views.FlxSqliteViewerTableViewActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".views.FlxSqliteViewerTableViewActivity" />
+        </activity>
+    </application>
+</manifest>
